@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="https://kit.fontawesome.com/b367f4fd12.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&family=Quicksand:wght@400;500;600;700;800&family=Roboto:wght@400;500;600;700;800&family=Rubik:wght@400;500;600;700;800&display=swap">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="style/style.css">
+  <title>E-commerce product page</title>
+</head>
+<body>
+  <div class="container">
+    <div class="menu">
+      <img class="close-menu-icon" src="/image/icon-close.svg" alt="close-icon">
+      <ul>
+        <li>Collections</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <header class="header">
+      <section class="header-left">
+        <img class="menu-icon" src="/image/icon-menu (2).svg" alt="menu-icon">
+        <img class="logo" src="/image/logo (4).svg" alt="logo">
+        <ul>
+          <li>Collections</li>
+          <li>Men</li>
+          <li>Women</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </section>
+      <section class="header-right">
+        <img class="cart-icon" src="/image/icon-cart.svg" alt="cart-icon">
+        <div class="quantity-cart-div"><span class="quantity-cart"></span></div>
+        <img class="avatar-icon" src="/image/image-avatar.png" alt="avatar-icon">
+      </section>
+    </header>
+    <main class="main">
+      <section class="main-left">
+        <section class="img-preview-section">
+          <img class="img-preview" src="/image/image-product-1.jpg" alt="product-photo">
+        </section>
+        <section class="img-thumbnail-section">
+          <img class="img-thumbnail active" src="/image/image-product-1-thumbnail.jpg" alt="product-thumbnail1">
+          <img class="img-thumbnail" src="/image/image-product-2-thumbnail.jpg" alt="product-thumbnail2">
+          <img class="img-thumbnail" src="/image/image-product-3-thumbnail.jpg" alt="product-thumbnail3">
+          <img class="img-thumbnail" src="/image/image-product-4-thumbnail.jpg" alt="product-thumbnail4">
+        </section>
+      </section>
+      <section class="main-right">
+        <section class="main-right-text">
+          <h3>sneaker company</h3>
+          <h1>Fall Limited Edition Sneakers</h1>
+          <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
+        </section>
+        <section class="main-right-price">
+          <section class="price-section">
+            <section class="price-actual">
+              <span class="cost-text">$125.00</span>
+              <p>50%</p>
+            </section>
+            <span class="price-sale">$250.00</span>
+          </section>
+          <section class="cart-section">
+            <div class="quantity-div">
+              <img class="quantity-minus" src="/image/icon-minus.svg" alt="previous-img">
+              <span class="quantity-text">1</span>
+              <img class="quantity-plus" src="/image/icon-plus.svg" alt="next-img">
+            </div>
+            <div class="submit-div">
+              <img src="/image/icon-cart.svg" alt="">
+              <span>Add to cart</span>
+            </div>
+          </section>
+        </section>
+      </section>
+    </main>
+  </div>
+  <script src="server/server.js"></script>
+</body>
+</html>
