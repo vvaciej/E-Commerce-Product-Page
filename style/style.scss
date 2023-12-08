@@ -646,8 +646,8 @@ body {
       .product-img {
         height: 50px;
         border-radius: 5px;
-        width: max-content;
-        object-fit: cover;
+        width: 50px;
+        object-fit: contain;
       }
       .cart-bill-delete-btn {
         height: 16px;
