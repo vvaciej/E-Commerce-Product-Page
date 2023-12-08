@@ -391,7 +391,7 @@ body {
   }
 }
 .img-thumbnail-section .img-thumbnail.active {
-  outline: 3px solid hsl(26, 100%, 55%);
+  outline: 2px solid hsl(0, 0%, 4%);
   opacity: 0.5;
 }
 
@@ -751,15 +751,17 @@ body {
   -moz-column-gap: 30px;
        column-gap: 30px;
   margin-top: 30px;
+  position: relative;
 }
 .photo-fullscreen .thumbnail-section-fullscreen .img-thumbnail-fullscreen {
   height: 100px;
   width: 100px;
   border-radius: 10px;
   cursor: pointer;
+  position: relative;
 }
 .photo-fullscreen .thumbnail-section-fullscreen .img-thumbnail-fullscreen.active {
-  outline: 3px solid hsl(26, 100%, 55%);
+  outline: 2px solid hsl(0, 0%, 0%);
   opacity: 0.5;
 }
 
