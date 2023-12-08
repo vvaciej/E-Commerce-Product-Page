@@ -503,6 +503,7 @@ body {
   row-gap: 60px;
   z-index: 999;
   transition: .2s ease-out;
+  opacity: 1;
   ul {
     list-style: none;
     color: $VeryDarkBlue;
@@ -521,7 +522,8 @@ body {
     cursor: pointer;
   }
   &:not(.active) {
-    transform: translate(-200%);
+    transform: translate(-100%);
+    opacity: 0;
     transition: .2s ease-out;
   }
 }

@@ -615,6 +615,7 @@ body {
   row-gap: 60px;
   z-index: 999;
   transition: 0.2s ease-out;
+  opacity: 1;
 }
 .menu ul {
   list-style: none;
@@ -635,7 +636,8 @@ body {
   cursor: pointer;
 }
 .menu:not(.active) {
-  transform: translate(-200%);
+  transform: translate(-100%);
+  opacity: 0;
   transition: 0.2s ease-out;
 }
 
