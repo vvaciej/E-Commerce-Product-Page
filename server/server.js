@@ -248,13 +248,13 @@ imgThumbnailFullscreen.forEach((thumbnail, index) => {
 function controlPhotoFullscreen (e) {
   const prevPhotoFullscreen = document.querySelector('.control-btn-previous');
   const nextPhotoFullscreen = document.querySelector('.control-btn-next');
-  if (e.target === prevPhotoFullscreen || prevPhotoFullscreen.contains(e.target)) {
+  if (prevPhotoFullscreen.contains(e.target)) {
     selectedPreviewIndexFullscreen--;
     if (selectedPreviewIndexFullscreen < 0) {
       selectedPreviewIndexFullscreen = 3;
     }
     changePhotoFullscreen(selectedPreviewIndexFullscreen);
-  } else if (e.target === nextPhotoFullscreen || nextPhotoFullscreen.contains(e.target)) {
+  } else if (nextPhotoFullscreen.contains(e.target)) {
     selectedPreviewIndexFullscreen++;
     if (selectedPreviewIndexFullscreen > 3) {
       selectedPreviewIndexFullscreen = 0;
