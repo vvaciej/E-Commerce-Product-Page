@@ -391,8 +391,7 @@ body {
   }
 }
 .img-thumbnail-section .img-thumbnail.active {
-  outline: 2px solid hsl(0, 0%, 4%);
-  opacity: 0.5;
+  outline: 2px solid hsl(220, 13%, 13%);
 }
 
 .main-right {
@@ -761,8 +760,7 @@ body {
   position: relative;
 }
 .photo-fullscreen .thumbnail-section-fullscreen .img-thumbnail-fullscreen.active {
-  outline: 2px solid hsl(0, 0%, 0%);
-  opacity: 0.5;
+  outline: 2px solid hsl(220, 13%, 13%);
 }
 
 .basket-container {

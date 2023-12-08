@@ -316,8 +316,7 @@ body {
   }
 
   .img-thumbnail.active {
-    outline: 2px solid hsl(0, 0%, 4%);
-    opacity: 0.5;
+    outline: 2px solid $VeryDarkBlue;
   }
 }
 
@@ -634,8 +633,7 @@ body {
       position: relative;
     }
     .img-thumbnail-fullscreen.active {
-      outline: 2px solid hsl(0, 0%, 0%);
-      opacity: .5;
+      outline: 2px solid $VeryDarkBlue;
     }
   }
 }
