@@ -149,6 +149,10 @@ body {
       display: none;
     }
   }
+  button {
+    border: 0;
+    background-color: transparent;
+  }
   .cart-icon {
     touch-action: none;
     padding: 8px;
@@ -233,6 +237,7 @@ body {
   display: inline-block;
   position: relative;
   .control-btn-img-div-mobile {
+    touch-action: none;
     position: absolute;
     display: flex;
     align-items: center;
@@ -253,10 +258,12 @@ body {
     }
   }
   .control-btn-img-div-prev-mobile {
+    touch-action: none;
     left: 20px;
     padding-right: 3.5px;
   }
   .control-btn-img-div-next-mobile {
+    touch-action: none;
     right: 20px;
     padding-left: 3.5px;
   }
@@ -459,6 +466,11 @@ body {
       @include smaller-mobile {
         width: 100%;
       }
+      button {
+        background-color: transparent;
+        border: 0;
+        font-family: 'Kumbh Sans', sans-serif;
+      }
       img {
         touch-action: none;
         cursor: pointer;
@@ -482,6 +494,8 @@ body {
       box-shadow: 0px 5px 20px hsl(26, 100%, 80%);
       cursor: pointer;
       transition: .1s;
+      border: 0;
+      font-family: 'Kumbh Sans', sans-serif;
       span {
         color: $White;
         font-weight: 700;
