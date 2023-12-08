@@ -141,6 +141,26 @@ allThumbnail.forEach((thumbnail, index) => {
   })
 })
 
+function controlPhotoMobile(e) {
+  const prevPhotoBtn = document.querySelector('.control-btn-img-div-prev-mobile');
+  const nextPhotoBtn = document.querySelector('.control-btn-img-div-next-mobile');
+  if (e.target === prevPhotoBtn || prevPhotoBtn.contains(e.target)) {
+    selectedPreviewIndex--;
+    if (selectedPreviewIndex < 0) {
+      selectedPreviewIndex = 3;
+    }
+    changePhoto(selectedPreviewIndex);
+  } else if (e.target === nextPhotoBtn || nextPhotoBtn.contains(e.target)) {
+		selectedPreviewIndex++;
+		if (selectedPreviewIndex > 3) {
+			selectedPreviewIndex = 0;
+		}
+		changePhoto(selectedPreviewIndex);
+	}
+}
+
+document.addEventListener('click', controlPhotoMobile);
+
 // fullscreen photo preview section
 
 const fullscreenPhotoClose = document.querySelector('.close-fullscreen-btn');
@@ -164,7 +184,6 @@ fullscreenPhotoClose.addEventListener('click', function () {
 
 const imgPreviewFullscreen = document.querySelectorAll('.img-preview-fullscreen');
 const imgThumbnailFullscreen = document.querySelectorAll('.img-thumbnail-fullscreen');
-
 
 const allSlidesFullscreen = [
   {
@@ -229,13 +248,13 @@ imgThumbnailFullscreen.forEach((thumbnail, index) => {
 function controlPhotoFullscreen (e) {
   const prevPhotoFullscreen = document.querySelector('.control-btn-previous');
   const nextPhotoFullscreen = document.querySelector('.control-btn-next');
-  if (e.target === prevPhotoFullscreen) {
+  if (e.target === prevPhotoFullscreen || prevPhotoFullscreen.contains(e.target)) {
     selectedPreviewIndexFullscreen--;
     if (selectedPreviewIndexFullscreen < 0) {
       selectedPreviewIndexFullscreen = 3;
     }
     changePhotoFullscreen(selectedPreviewIndexFullscreen);
-  } else if (e.target === nextPhotoFullscreen) {
+  } else if (e.target === nextPhotoFullscreen || nextPhotoFullscreen.contains(e.target)) {
     selectedPreviewIndexFullscreen++;
     if (selectedPreviewIndexFullscreen > 3) {
       selectedPreviewIndexFullscreen = 0;
@@ -277,11 +296,11 @@ submitDiv.addEventListener('click', basketBill);
 
 function basketClearAll () {
   emptyCart.classList.add('active');
-	filledCart.classList.remove('active');
+  filledCart.classList.remove('active');
   quantityCartDiv.classList.remove('active');
 } 
 
-clearBasketBtn.addEventListener('click' , basketClearAll);
+clearBasketBtn.addEventListener('click', basketClearAll);
 
 // author vvaciej
 
