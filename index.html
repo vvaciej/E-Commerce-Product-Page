@@ -17,6 +17,54 @@
 </head>
 <body>
   <div class="container">
+    <div class="basket-container">
+      <h4>Cart</h4>
+      <h3 class="empty-cart active">Your Cart is empty.</h3>
+      <div class="filled-cart">
+        <section class="cart-bill-section">
+          <section class="cart-bill-section-text">
+            <img class="product-img" src="/image/image-product-1-thumbnail.jpg" alt="">
+            <section class="cart-bill-section-text-mid">
+              <section>
+                <h5>Fall Limited Edition Sneakers</h5>
+              </section>
+              <section>
+                <span>$125.00 x <span class="cart-bill-quantity">1</span></span>
+                <b class="cart-bill-total-cost">$375.00</b>
+              </section>
+            </section>
+          </section>
+          <section>
+            <img class="cart-bill-delete-btn" src="/image/icon-delete.svg" alt="delete-icon">
+          </section>
+        </section>
+        <section class="cart-checkout-section">
+          <button><span>Checkout</span></button>
+        </section>
+      </div>
+    </div>
+    <div class="photo-fullscreen">
+      <section class="close-section-fullscreen">
+        <img class="close-fullscreen-btn" src="/image/icon-close.svg" alt="">
+      </section>
+      <section class="img-section-fullscreen">
+        <div class="control-btn-img-div control-btn-previous"><img class="control-btn-img" src="/image/icon-previous.svg" alt="">
+        </div>
+        <section>
+          <img class="img-preview-fullscreen active" src="/image/image-product-1.jpg" alt="product-photo1-fullscreen">
+          <img class="img-preview-fullscreen" src="/image/image-product-2.jpg" alt="product-photo2-fullscreen">
+          <img class="img-preview-fullscreen" src="/image/image-product-3.jpg" alt="product-photo3-fullscreen">
+          <img class="img-preview-fullscreen" src="/image/image-product-4.jpg" alt="product-photo4-fullscreen">
+        </section>
+        <div class="control-btn-img-div control-btn-next"><img class="control-btn-img" src="/image/icon-next.svg" alt=""></div>
+      </section>
+      <section class="thumbnail-section-fullscreen">
+        <img class="img-thumbnail-fullscreen active" src="/image/image-product-1-thumbnail.jpg" alt="product-thumbnail1-fullscreen">
+        <img class="img-thumbnail-fullscreen" src="/image/image-product-2-thumbnail.jpg" alt="product-thumbnail2-fullscreen">
+        <img class="img-thumbnail-fullscreen" src="/image/image-product-3-thumbnail.jpg" alt="product-thumbnail3-fullscreen">
+        <img class="img-thumbnail-fullscreen" src="/image/image-product-4-thumbnail.jpg" alt="product-thumbnail4-fullscreen">
+      </section>
+    </div>
     <div class="menu">
       <img class="close-menu-icon" src="/image/icon-close.svg" alt="close-icon">
       <ul>
@@ -48,7 +96,10 @@
     <main class="main">
       <section class="main-left">
         <section class="img-preview-section">
-          <img class="img-preview" src="/image/image-product-1.jpg" alt="product-photo">
+          <img class="img-preview active" src="/image/image-product-1.jpg" alt="product-photo1">
+          <img class="img-preview" src="/image/image-product-2.jpg" alt="product-photo2">
+          <img class="img-preview" src="/image/image-product-3.jpg" alt="product-photo3">
+          <img class="img-preview" src="/image/image-product-4.jpg" alt="product-photo4">
         </section>
         <section class="img-thumbnail-section">
           <img class="img-thumbnail active" src="/image/image-product-1-thumbnail.jpg" alt="product-thumbnail1">
@@ -73,9 +124,9 @@
           </section>
           <section class="cart-section">
             <div class="quantity-div">
-              <img class="quantity-minus" src="/image/icon-minus.svg" alt="previous-img">
+              <img class="quantity-minus quantity-control" src="/image/icon-minus.svg" alt="previous-img">
               <span class="quantity-text">1</span>
-              <img class="quantity-plus" src="/image/icon-plus.svg" alt="next-img">
+              <img class="quantity-plus quantity-control" src="/image/icon-plus.svg" alt="next-img">
             </div>
             <div class="submit-div">
               <img src="/image/icon-cart.svg" alt="">
