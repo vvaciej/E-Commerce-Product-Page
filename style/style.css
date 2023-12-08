@@ -759,7 +759,7 @@ body {
   cursor: pointer;
 }
 .photo-fullscreen .thumbnail-section-fullscreen .img-thumbnail-fullscreen.active {
-  border: 3px solid hsl(26, 100%, 55%);
+  outline: 3px solid hsl(26, 100%, 55%);
   opacity: 0.5;
 }
 
