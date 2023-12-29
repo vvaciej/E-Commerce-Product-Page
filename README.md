@@ -1,6 +1,3 @@
-<div align="center">  
-  <img src="https://github.com/vvaciej/E-commerce-product-page/assets/140758922/0113e51f-8924-4067-b51b-a8990357ebc4">
-  <img src="https://github.com/vvaciej/E-commerce-product-page/assets/140758922/702d2303-bb26-4a88-b4d2-90d8c60775df">
-  <img src="https://github.com/vvaciej/E-commerce-product-page/assets/140758922/83587934-e6b1-4485-83b2-0a719d578451">
-  <img src="https://github.com/vvaciej/E-commerce-product-page/assets/140758922/a4f9afee-1659-418c-8493-db6d04cb1b02">
-</div>
+![image](https://github.com/vvaciej/E-Commerce-Product-Page/assets/140758922/f0edb02c-86ff-4902-9217-33a9ff61a4b7)
+![image](https://github.com/vvaciej/E-Commerce-Product-Page/assets/140758922/91b4f24a-0a87-4455-bb5d-9b8c4a2287c2)
+![image](https://github.com/vvaciej/E-Commerce-Product-Page/assets/140758922/19a948a1-2777-4960-a64b-768ab0879790)
